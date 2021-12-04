@@ -1,0 +1,285 @@
+.notes-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    border: #97dd2d solid 1px;
+    border-radius: 10px;
+    background-color: #0000004d;
+    box-shadow: 0 0px 10px 5px #90d42a8a;
+}
+
+.title-button-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.enter-note-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    border: 3px solid #90d42a;
+    border-radius: 17px;
+    min-height: 50vh;
+    background-color: #0000004d;
+    box-shadow: 0 0px 10px 5px #90d42a63;
+}
+
+.enter-note-title header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #0000004d;
+}
+
+.enter-note-title header .fas:hover {
+    color: #90d42a;
+}
+
+.enter-note-title header .fas:active {
+    color: #ffffff;
+}
+
+.back {
+    font-size: 1.5rem;
+
+}
+
+.textarea-page-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 2.7rem;
+    max-width: 100%;
+}
+
+
+.note-title-part {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.enter-note-title input {
+    font-size: x-large;
+    margin: 3rem;
+    border: #90d42a solid 3px;
+    background-color: #90d42a00;
+    color: #ffffff;
+    outline: none;
+    border-radius: 7px;
+    min-height: 2.5rem;
+    text-align: center;
+    width: 70%;
+    background-color: #0000004d;
+    box-shadow: 0 0px 10px 5px #90d42a63;
+}
+
+.enter-note-title label {
+    margin-top: 3rem;
+    font-size: xx-large;
+    font-weight: 600;
+    margin: 0.2rem 0;
+}
+
+.enter-note-title button {
+    display: flex;
+    justify-content: center;
+    padding: 0.7rem 3rem;
+    border-radius: 20px;
+    font-size: x-large;
+    color: white;
+    background-color: #82c222;
+    border: 1px solid #82c222;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0 0px 10px 5px #073f0069 inset;
+
+}
+
+.enter-note-title button:hover {
+    background-color: #0000004d;
+    box-shadow: 0 0px 10px 5px #90d42a63;
+        border: 1px solid #6b9c21;
+}
+
+.enter-note-title button:active {
+    background: #00000000;
+    color: #90d42a;
+    border: 1px solid #90d42a;
+    background-color: #0000004d;
+    box-shadow: 0 0px 10px 5px #90d42a63;
+}
+
+.close-note-title {
+    display: none;
+}
+
+.enter-note-title-hide-cont {
+    display: none;
+}
+
+.hide-cont {
+    display: none;
+}
+
+.page-btn.hide-page-pbtn {
+    display: none;
+}
+
+.page-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+    margin: 2rem;
+}
+
+.page-title {
+    text-align: center;
+    /* position: relative;
+    left: 5rem; */
+    font-size: x-large;
+    line-height: 5rem;
+
+}
+
+.page-title h1 {
+    color: #ffffff;
+
+    
+}
+
+.page-title span {
+    width: 100%;
+    text-align: right;
+    font-size: 70px;
+    line-height: 3rem;
+    color: #97dd2d;
+
+
+}
+
+.page-title h1.hove-green {
+    color: #97dd2d;
+    text-shadow: 0 0 10px #82c222;
+
+
+}
+
+.page-title span.hove-green {
+    color: #97dd2d;
+    text-shadow: 0 0 10px #ffffff;
+
+}
+
+.page-title span.hove-white {
+    color: #ffffff;
+    text-shadow: 0 0 10px #82c222;
+
+}
+
+.page-title h1.hove-white {
+    color: #ffffff;
+        text-shadow: 0 0 10px #ffffff;
+
+
+
+}
+
+.pbtn {
+    /* rgb(255, 255, 255)0%; */
+    display: flex;
+    /* margin-right:7rem ; */
+    padding: 9%;
+    border-radius: 50%;
+    color: white;
+    background-color: #90d42a;
+    border: 3px solid #90d42a;
+    cursor: pointer;
+    box-shadow: 0 0px 10px 5px #073f0069 inset;
+}
+
+.pbtn.green-icon {
+    color: #90d42a;
+}
+
+/* .pbtn.hove-radius-pbtn {
+    background-color: #6b9c21;
+    border: 3px solid #6b9c21; 
+       border-radius: 30%;
+    transition: 0.5s;
+} */
+
+.pbtn.hove-radius-pbtn {
+    background: #00000000;
+    padding: 4rem;
+    color: #90d42a;
+    /* border: 3px solid #ffffff; */
+    border-radius: 30%;
+    transition: 0.5s;
+    background-color: #0000004d;
+    box-shadow: 0 0px 10px 5px #90d42a63;
+}
+
+.pbtn.hove-radius-pbtn:hover {
+    box-shadow: 0 0px 10px 5px #ffffff63;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    /* transition: 300ms; */
+
+
+
+}.pbtn.hove-radius-pbtn:active {
+    box-shadow: 0 0px 10px 5px #ffffff63;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    transition: 0ms;
+
+
+
+}
+
+.fas.fa-plus.pagefas {
+    padding: 0.5rem;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.fas.fa-plus.pagefas:hover {
+    color: #ffffff;
+}
+
+.fas.fa-plus.pagefas:active {
+    color: #6b9c21;
+}
+
+.fas.fa-plus.pagefas.rotate-icon {
+   color: #ffffff;
+   animation-name:spin;
+   animation-duration: 1550ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear; 
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+/* .fas.fa-plus.pagefas.rotate-icon.change-color-pagefas{
+    color: #82c222;
+    transition: 700ms;
+} */

@@ -1,0 +1,122 @@
+.notes-page-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+li {
+    margin: 2rem;
+}
+
+.notes-page-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.notes-page-header {
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+    height: 5rem;
+    border-radius: 0 0 10px 10px;
+    background-color: #ffffff00;
+    border: none;
+    box-shadow: none;
+}
+
+.signin-logout {
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.signin-logout:hover {
+    color: #90d42a;
+}
+
+.signin-logout:active {
+    color: #ffffff;
+}
+
+.signin-logout-cont {
+    font-weight: 700;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding: 0.7rem;
+    border: 3px solid white;
+    border-radius: 30%;
+}
+
+.signin-logout-cont:hover {
+    border: 3px solid #90d42a;
+}
+
+.signin-logout-cont:active {
+    border: 3px solid #ffffff;
+}
+
+.logs-color{
+    background-color: #90d42a00;
+    color: white;
+    cursor: pointer;
+
+}
+
+.logs-color:hover{
+    color: #82c222;
+    box-shadow: 0 0px 10px 5px #82c222;
+
+}
+.logs-color:active{
+    color: #ffffff;
+    box-shadow: 0 0px 10px 5px #ffffff;
+
+}
+
+.tools-margin-notes-page {
+    margin: 0.5rem;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-weight: 300;
+}
+
+.tools-margin-notes-page:hover {
+    color: #90d42a;
+}
+
+.tools-margin-notes-page:active {
+    color: #ffffff;
+}
+
+.header-note-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 1.3rem;
+    max-width: 50%;
+}
+
+.tools-notes-page {
+    display: flex;
+    align-items: center;
+    min-height: 4rem;
+    min-width: 1rem;
+    max-width: 1rem;
+}
+
+.settings-part-notes-page {
+    margin-left: 1rem;
+    min-height: 4rem;
+    min-width: 1rem;
+    max-width: 1rem;
+}
+
+.signin-logout-part {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.notes-page-hidden{display: none;}

@@ -1,0 +1,131 @@
+.sign-up-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.username-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.temp-username-cont.username-cont {
+    display: none;
+}
+
+.user-name {
+    font-size: x-large;
+    margin: 1rem 0.5rem;
+    border: #90d42a solid 3px;
+    background-color: #90d42a00;
+    color: #ffffff;
+    outline: none;
+    border-radius: 7px;
+    min-height: 2.5rem;
+    text-align: center;
+}
+
+.username-label {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.last-n {
+    margin-left: 1.5rem;
+}
+
+.password-cont {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.password-label {
+    font-size: x-large;
+    font-weight: 600;
+    margin: 0.2rem 0;
+}
+
+.password {
+    font-size: x-large;
+    margin: 1rem 0.5rem;
+    border: #90d42a solid 3px;
+    background-color: #90d42a00;
+    color: #ffffff;
+    outline: none;
+    border-radius: 7px;
+    min-height: 2.5rem;
+    text-align: center;
+    width: 150%;
+}
+
+.password-label-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: center; */
+    margin: 0 2rem;
+    margin-bottom: 1rem;
+}
+
+.password-input-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: center; */
+    margin: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.temp-password-input-cont.password-input-cont {
+    display: none;
+}
+
+.email-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: center; */
+    margin: 1rem 2rem;
+}
+
+.email {
+    font-size: x-large;
+    margin: 1rem 0.5rem;
+    border: #90d42a solid 3px;
+    background-color: #90d42a00;
+    color: #ffffff;
+    outline: none;
+    border-radius: 7px;
+    min-height: 2.5rem;
+    text-align: center;
+    width: 150%;
+}
+
+.email-label {
+    font-size: x-large;
+    font-weight: 600;
+    margin: 0.2rem 0;
+}
+
+.logs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
+    /* margin-bottom: 7.5rem; */
+}
+
+.signin-logout.signin-logout-form {
+    margin: 5rem;
+}
+
+.logs-position {
+    display: flex;
+    justify-content: space-between;
+}

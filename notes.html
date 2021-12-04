@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/notestyels.css">
+    <link rel="stylesheet" href="/notes_container_btn.css">
+    <link rel="stylesheet" href="/notesPageContainer.css">
+    <link rel="stylesheet" href="/savedNotes.css">
+    <link rel="stylesheet" href="/signin-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Notes App </title>
+</head>
+
+<body>
+
+    <header class="notes-page-header ">
+        <div class="settings-part">
+            <ul class="tools">
+                <i class="fas tools-margin-notes-page fa-ellipsis-h "></i>
+                <i class="fas tools-margin-notes-page fa-cog settings-icon "></i>
+                <i> <a class="fas tools-margin-notes-page fa-plus from-saved-to-add"
+                        href="/notes.html"></a>
+                </i>
+            </ul>
+        </div>
+
+        <div class="sett-cont visibility-hidden">
+
+            <ul class="settings-icon-container ">
+
+                <li class="settings-li-style theme-color">Theme Color</li>
+                <li class="settings-li-style">Font Family</li>
+                <li class="settings-li-style">Background Color</li>
+                <li class="settings-li-style">Profile Settings</li>
+                <li class="settings-li-style">Log-out</li>
+
+            </ul>
+
+            <ul class="theme-colors-container visibility-hidden">
+                <li class="theme-color-green">Green </li>
+                <li class="theme-color-purple">Purple</li>
+                <li class="theme-color-blue">Blue</li>
+                <li class="theme-color-yellow">Yellow</li>
+                <li class="theme-color-red">Red</li>
+                <li class="settings-li-style left-back"><span>back</span> </li>
+
+            </ul>
+
+
+
+
+        </div>
+
+        <!-- <ul class="page-background-container ">
+    <li class="settings-li-style">gray </li>
+    <li class="theme-color-purple">black</li>
+     
+    <li class="settings-li-style left-back"><span>back</span> </li>           
+</ul> -->
+
+        <div class="signin-logout-part">
+
+            <a class="signin-logout-cont logs-color" href="/sign_in.html"> <span
+                    class="signin-logout">Log-out</span> </a>
+        </div>
+
+    </header>
+    <div class="title-button-flex ">
+        <section class="page-title ">
+            <h1>Make your life easier </h1><span>with your daily notes</span>
+        </section>
+        <section class="page-btn "><button class="pbtn" id="pbtn"><span class="fas fa-plus pagefas "></span></button>
+        </section>
+    </div>
+
+    <!--  -->
+
+    <div class="enter-note-title  enter-note-title-hide-cont">
+        <header class="header ">
+            <div class="close-part">
+
+                <span class=" back fas fa-arrow-right close-note-title"></span>
+            </div>
+
+        </header>
+
+        <dive class="note-title-part">
+            <label for="input-note-title">Note title</label>
+            <input class="input-note-title" type="text" placeholder="Write your note title here.">
+            <button class="title-button">Submit</button>
+        </dive>
+    </div>
+
+    <section class="notes-container hide-cont">
+
+        <header class="header">
+
+            <div class="settings-part">
+                <ul class="tools">
+                    <i class="fas fa-ellipsis-h"></i>
+                    <i class="fas fa-cog"></i>
+                    <i class="fas fa-save save-icon"> </i>
+                </ul>
+            </div>
+
+            <div class="header-note-title ">
+                <h2 class="textarea-page-title"></h2>
+            </div>
+
+            <div class="close-part">
+
+                <span class="back fas fa-arrow-right close-note"></span>
+            </div>
+
+        </header>
+
+
+        <div class="txt-container">
+            <textarea type="text" class="txt" id="txt" placeholder="Write your note here"></textarea>
+        </div>
+
+        <footer class="footer">
+            <button class="save-btn" id="save-btn">Save</button>
+        </footer>
+
+    </section>
+
+
+
+    <!------------------------------------------------------- notes page ----------------------------------------------------->
+    <section class="user-notes-page notes-page-hidden">
+
+        <div class="create-element-container">
+            <ul class="notes-page-container">
+                <li class="notes-container ">
+
+                    <header class="header">
+
+                        <div class="settings-part-notes-page">
+                            <ul class="tools-notes-page">
+                                <i class="fas fa-cog"></i>
+                            </ul>
+                        </div>
+
+
+                        <div class="header-note-title">
+                            <h2>Hamza Faisal Rai</h2>
+                        </div>
+
+
+                        <div class="close-part ">
+
+                            <span> <a class="fas fa-times close-note" href="/notes.html"></a> </span>
+                        </div>
+
+                    </header>
+
+
+
+                    <div class="txt-container">
+
+
+                        <p>
+
+
+                            This is the front page of the Simple English Wikipedia. Wikipedias are places where people
+                            work
+                            together
+                            to write encyclopedias in different languages. We use Simple English words and grammar here.
+                            The
+                            Simple
+                            English Wikipedia is for everyone! That includes children and adults who are learning
+                            English. There
+                            are
+                            196,214 articles on the Simple English Wikipedia. All of the pages are free to use. They
+                            have all
+                            been
+                            published under both the Creative Commons Attribution/Share-Alike License 3.0 and the GNU
+                            Free
+                            Documentation License. You can help here! You may change these pages and make new pages.
+                            Read the
+                            help
+                            pages and other good pages to learn how to write pages here. If you need help, you may ask
+                            questions
+                            at
+                            Simple talk.
+                        </p>
+
+                    </div>
+                    <footer class="footer">
+
+                        <button class="save-btn" id="save-btn">Edit</button>
+
+                    </footer>
+
+                </li>
+                <!-- <li class="notes-container ">
+
+            <header class="header">
+
+                <div class="settings-part-notes-page ">
+                    <ul class="tools-notes-page">
+                        <i class="fas fa-cog"></i>
+                    </ul>
+                </div>
+
+
+
+                <div class="header-note-title">
+                    <h2>Hamza Faisal Rai</h2>
+                </div>
+
+
+
+                <div class="close-part">
+
+                    <span> <a class="fas fa-times close-note" href="/origenal/notes.html"></a> </span>
+                </div>
+
+            </header>
+            <div class="txt-container">
+
+
+                <p>
+
+
+                    This is the front page of the Simple English Wikipedia. Wikipedias are places where people work
+                    together
+                    to write encyclopedias in different languages. We use Simple English words and grammar here. The
+                    Simple
+                    English Wikipedia is for everyone! That includes children and adults who are learning English. There
+                    are
+                    196,214 articles on the Simple English Wikipedia. All of the pages are free to use. They have all
+                    been
+                    published under both the Creative Commons Attribution/Share-Alike License 3.0 and the GNU Free
+                    Documentation License. You can help here! You may change these pages and make new pages. Read the
+                    help
+                    pages and other good pages to learn how to write pages here. If you need help, you may ask questions
+                    at
+                    Simple talk.
+                </p>
+
+            </div>
+            <footer class="footer">
+
+                <button class="save-btn" id="save-btn">Edit</button>
+
+            </footer>
+
+        </li>-->
+            </ul>
+
+        </div>
+
+    </section>
+    <script src="/notes_page.js"></script>
+    <script src="/notes.js"></script>
+
+</body>
+
+</html>
